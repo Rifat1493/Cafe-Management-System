@@ -1,0 +1,181 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 5, 2016, 11:47:52 AM
+    Author     : Rifat
+*/
+
+#tb1
+{
+     -fx-background-image:url("tab2.png");
+    -fx-background-size:100%100%;
+    -fx-background-color:#0a5b04;
+}
+#tb2
+{
+     -fx-background-image:url("tab2.png");
+    -fx-background-size:100%100%;
+    -fx-background-color:#0a5b04;
+}
+#tb3
+{
+     -fx-background-image:url("tab2.png");
+    -fx-background-size:100%100%;
+    -fx-background-color:#0a5b04;
+}
+#tb4
+{
+     -fx-background-image:url("tab2.png");
+    -fx-background-size:100%100%;
+    -fx-background-color:#0a5b04;
+}
+#tb5
+{
+     -fx-background-image:url("tab1.png");
+    -fx-background-size:100%100%;
+    -fx-background-color:#0a5b04;
+}
+#tb6
+{
+     -fx-background-image:url("tab1.png");
+    -fx-background-size:100%100%;
+    -fx-background-color:#0a5b04;
+}
+#tb7
+{
+     -fx-background-image:url("tab1.png");
+    -fx-background-size:100%100%;
+    -fx-background-color:#0a5b04;
+}
+#tb8
+{
+     -fx-background-image:url("tab1.png");
+    -fx-background-size:100%100%;
+    -fx-background-color:#0a5b04;
+}
+.root{
+    
+    -fx-background-image:url("magpie.png");
+    -fx-background-size: 100% 100%;
+}
+
+#txarea
+{
+    
+}
+#pane4{
+    -fx-background-color:white;
+    -fx-border-color:black;
+    -fx-border-radius: 10px;
+}
+#pane3{
+    -fx-background-color:white;
+    -fx-border-color:black;
+    -fx-border-radius: 10px;
+}
+
+#lb1{
+    -fx-border-color:black;
+    -fx-border-radius: 5px;
+}
+
+#lb2{
+    -fx-border-color:black;
+    -fx-border-radius: 5px;
+}
+#lb3{
+    -fx-border-color:black;
+    -fx-border-radius: 5px;
+}
+#lb4{
+    -fx-border-color:black;
+    -fx-border-radius: 5px;
+}
+#lb5{
+    -fx-border-color:black;
+    -fx-border-radius: 5px;
+}
+#lb6{
+    -fx-border-color:black;
+    -fx-border-radius: 5px;
+}
+#btn1{
+    -fx-border-radius:10px;
+    -fx-background-color:#e41515;
+}
+#pane1{
+    -fx-background-color:white;
+    -fx-border-color:black;
+    -fx-border-radius: 10px;
+}
+#pane2{
+    -fx-background-color:white;
+    -fx-border-color:black;
+    -fx-border-radius: 10px;
+}
+.check-box{
+    -fx-background-color:#e41515;
+    -fx-border-color:black;
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+}
+#txarea{
+ 
+    -fx-border-radius: 10px;
+    -fx-border-color:black;
+}
+#l1{
+    -fx-background-color:#e41515;
+    -fx-border-color:black;
+    -fx-border-radius: 5px;
+}
+#l1{
+    -fx-background-color:#e41515;
+    -fx-border-color:black;
+    -fx-border-radius: 5px;
+}
+#l2{
+    -fx-background-color:#e41515;
+    -fx-border-color:black;
+    -fx-border-radius: 5px;
+}
+#l3{
+    -fx-background-color:#e41515;
+    -fx-border-color:black;
+    -fx-border-radius: 5px;
+}
+#l4{
+    -fx-background-color:#e41515;
+    -fx-border-color:black;
+    -fx-border-radius: 5px;
+}
+#l5{
+    -fx-background-color:#e41515;
+    -fx-border-color:black;
+    -fx-border-radius: 5px;
+}
+#l6{
+    -fx-background-color:#e41515;
+    -fx-border-color:black;
+    -fx-border-radius: 5px;
+}
+#btn2{
+    -fx-border-radius:10px;
+    -fx-background-color:#e41515;
+}
+#btn3{
+    -fx-border-radius:10px;
+    -fx-background-color:#e41515;
+}
+#btn4{
+    -fx-border-radius:10px;
+    -fx-background-color:#e41515;
+}
+#tabpane{
+   -fx-background-color:white;
+    -fx-border-color:black;
+    -fx-border-radius: 5px;
+}

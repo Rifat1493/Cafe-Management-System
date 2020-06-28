@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="728.0" prefWidth="1368.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafe.Main2Controller">
+   <children>
+      <Pane fx:id="pane1" layoutX="20.0" layoutY="149.0" prefHeight="312.0" prefWidth="409.0">
+         <children>
+            <CheckBox fx:id="ck1" layoutX="14.0" layoutY="27.0" mnemonicParsing="false" onAction="#handlecoffee" prefHeight="36.0" prefWidth="141.0" text="Coffee">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="ck2" layoutX="14.0" layoutY="80.0" mnemonicParsing="false" onAction="#handlecold" prefHeight="36.0" prefWidth="141.0" text="Cold Coffee">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="ck3" layoutX="14.0" layoutY="130.0" mnemonicParsing="false" onAction="#handletea" prefHeight="36.0" prefWidth="141.0" text="Tea">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="ck5" layoutX="14.0" layoutY="230.0" mnemonicParsing="false" onAction="#handlesprite" prefHeight="36.0" prefWidth="141.0" text="Sprite">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="ck4" layoutX="14.0" layoutY="178.0" mnemonicParsing="false" onAction="#handlecola" prefHeight="36.0" prefWidth="141.0" text="CocaCola">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </CheckBox>
+            <TextField fx:id="tx1" alignment="CENTER" layoutX="228.0" layoutY="26.0" prefHeight="36.0" prefWidth="158.0" text="0">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tx2" alignment="CENTER" layoutX="228.0" layoutY="74.0" prefHeight="36.0" prefWidth="158.0" text="0">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tx4" alignment="CENTER" layoutX="228.0" layoutY="176.0" prefHeight="36.0" prefWidth="158.0" text="0">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tx3" alignment="CENTER" layoutX="228.0" layoutY="124.0" prefHeight="36.0" prefWidth="158.0" text="0">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tx5" alignment="CENTER" layoutX="228.0" layoutY="227.0" prefHeight="36.0" prefWidth="158.0" text="0">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </TextField>
+         </children></Pane>
+      <Pane fx:id="pane2" layoutX="475.0" layoutY="149.0" prefHeight="312.0" prefWidth="409.0">
+         <children>
+            <CheckBox fx:id="ck6" layoutX="14.0" layoutY="27.0" mnemonicParsing="false" onAction="#handlesamosa" prefHeight="36.0" prefWidth="141.0" text="Samosa">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="ck7" layoutX="14.0" layoutY="80.0" mnemonicParsing="false" onAction="#handleburger" prefHeight="36.0" prefWidth="141.0" text="Burger">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="ck8" layoutX="14.0" layoutY="130.0" mnemonicParsing="false" onAction="#handlekhichuri" prefHeight="36.0" prefWidth="141.0" text="Khichuri">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="ck10" layoutX="14.0" layoutY="230.0" mnemonicParsing="false" onAction="#handlepizza" prefHeight="36.0" prefWidth="141.0" text="Pizza">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="ck9" layoutX="14.0" layoutY="178.0" mnemonicParsing="false" onAction="#handlebiryani" prefHeight="36.0" prefWidth="141.0" text="Biryani">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </CheckBox>
+            <TextField fx:id="tx6" alignment="CENTER" layoutX="228.0" layoutY="23.0" prefHeight="36.0" prefWidth="158.0" text="0">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tx7" alignment="CENTER" layoutX="228.0" layoutY="73.0" prefHeight="36.0" prefWidth="158.0" text="0">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tx10" alignment="CENTER" layoutX="228.0" layoutY="229.0" prefHeight="36.0" prefWidth="158.0" text="0">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tx9" alignment="CENTER" layoutX="228.0" layoutY="178.0" prefHeight="36.0" prefWidth="158.0" text="0">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tx8" alignment="CENTER" layoutX="228.0" layoutY="126.0" prefHeight="36.0" prefWidth="158.0" text="0">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </TextField>
+         </children>
+      </Pane>
+      <Pane fx:id="pane4" layoutX="909.0" layoutY="610.0" prefHeight="83.0" prefWidth="433.0">
+         <children>
+            <Button fx:id="btn1" layoutX="10.0" layoutY="25.0" mnemonicParsing="false" onAction="#total" prefHeight="39.0" prefWidth="88.0" text="Total" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn4" layoutX="335.0" layoutY="22.0" mnemonicParsing="false" onAction="#signout" prefHeight="39.0" prefWidth="88.0" text="Logout" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn3" layoutX="230.0" layoutY="23.0" mnemonicParsing="false" onAction="#receipt" prefHeight="39.0" prefWidth="88.0" text="Receipt" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn2" layoutX="122.0" layoutY="24.0" mnemonicParsing="false" onAction="#reset" prefHeight="39.0" prefWidth="88.0" text="Reset" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane fx:id="pane3" layoutX="32.0" layoutY="486.0" prefHeight="215.0" prefWidth="749.0">
+         <children>
+            <Label fx:id="l1" layoutX="40.0" layoutY="37.0" prefHeight="36.0" prefWidth="132.0" text="Cost of Drinks" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="l3" layoutX="40.0" layoutY="144.0" prefHeight="36.0" prefWidth="132.0" text="Service Charge" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="l2" layoutX="40.0" layoutY="90.0" prefHeight="36.0" prefWidth="132.0" text="Cost of Snacks" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb1" alignment="CENTER" contentDisplay="CENTER" layoutX="212.0" layoutY="33.0" prefHeight="44.0" prefWidth="132.0" text="0" textAlignment="JUSTIFY">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb2" alignment="CENTER" contentDisplay="CENTER" layoutX="212.0" layoutY="91.0" prefHeight="44.0" prefWidth="132.0" text="0" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="l4" layoutX="436.0" layoutY="38.0" prefHeight="36.0" prefWidth="132.0" text="VAT" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="l6" layoutX="436.0" layoutY="145.0" prefHeight="36.0" prefWidth="132.0" text="Total" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="l5" layoutX="436.0" layoutY="91.0" prefHeight="36.0" prefWidth="132.0" text="Sub Total" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb4" alignment="CENTER" contentDisplay="CENTER" layoutX="608.0" layoutY="39.0" prefHeight="44.0" prefWidth="132.0" text="0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb6" alignment="CENTER" contentDisplay="CENTER" layoutX="608.0" layoutY="145.0" prefHeight="44.0" prefWidth="132.0" text="0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb5" alignment="CENTER" contentDisplay="CENTER" layoutX="608.0" layoutY="91.0" prefHeight="44.0" prefWidth="132.0" text="0" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="lb3" alignment="CENTER" layoutX="212.0" layoutY="145.0" prefWidth="132.0" text="0">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font></TextField>
+            <Separator layoutX="386.0" layoutY="8.0" orientation="VERTICAL" prefHeight="200.0" />
+         </children>
+      </Pane>
+      <TabPane fx:id="tabpane" layoutX="907.0" layoutY="117.0" prefHeight="479.0" prefWidth="456.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Receipt">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="368.0" prefWidth="407.0">
+                     <children>
+                        <TextArea fx:id="txarea" layoutX="34.0" layoutY="78.0" prefHeight="406.0" prefWidth="456.0" AnchorPane.bottomAnchor="44.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                        <Button layoutX="202.0" layoutY="413.0" mnemonicParsing="false" onAction="#save" prefHeight="25.0" prefWidth="57.0" text="Save">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Health">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Pane layoutX="43.0" layoutY="43.0" pickOnBounds="false" prefHeight="450.0" prefWidth="456.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <RadioButton fx:id="rbtn1" layoutX="122.0" layoutY="38.0" mnemonicParsing="false" onAction="#calculate" prefHeight="28.0" prefWidth="103.0" text="Female">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="group1" />
+                                 </toggleGroup>
+                              </RadioButton>
+                              <RadioButton fx:id="rbtn2" layoutX="234.0" layoutY="38.0" mnemonicParsing="false" onAction="#calculate" prefHeight="28.0" prefWidth="103.0" text="Male" toggleGroup="$group1">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </RadioButton>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f0f3f5" height="225.0" layoutX="10.0" layoutY="84.0" stroke="BLACK" strokeType="INSIDE" width="441.0" />
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f0f3f5" height="77.0" layoutX="10.0" layoutY="367.0" stroke="BLACK" strokeType="INSIDE" width="441.0" />
+                              <Label layoutX="14.0" layoutY="100.0" prefHeight="36.0" prefWidth="95.0" text="Your Height">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="14.0" layoutY="259.0" prefHeight="36.0" prefWidth="95.0" text="Activity Level">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="14.0" layoutY="208.0" prefHeight="36.0" prefWidth="95.0" text="Your Age">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="14.0" layoutY="155.0" prefHeight="36.0" prefWidth="95.0" text="Your Weight">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <ComboBox fx:id="cmbox1" layoutX="122.0" layoutY="100.0" prefHeight="30.0" prefWidth="50.0" />
+                              <ComboBox fx:id="cmbox2" layoutX="273.0" layoutY="100.0" prefHeight="30.0" prefWidth="50.0" />
+                              <ComboBox fx:id="cmbox3" layoutX="122.0" layoutY="259.0" prefHeight="30.0" prefWidth="223.0" />
+                              <Button layoutX="369.0" layoutY="259.0" mnemonicParsing="false" onAction="#help" prefHeight="30.0" text="Help?" />
+                              <TextField fx:id="txweight" alignment="CENTER" layoutX="122.0" layoutY="161.0" prefWidth="100.0" />
+                              <TextField fx:id="txage" alignment="CENTER" layoutX="122.0" layoutY="213.0" prefWidth="100.0" />
+                              <Label alignment="CENTER" layoutX="175.0" layoutY="100.0" prefHeight="36.0" prefWidth="95.0" text="Feet">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="319.0" layoutY="388.0" prefHeight="36.0" prefWidth="109.0" text="Calories per day">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="238.0" layoutY="207.0" prefHeight="36.0" prefWidth="95.0" text="Years">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="238.0" layoutY="156.0" prefHeight="36.0" prefWidth="95.0" text="Pounds">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" layoutX="322.0" layoutY="97.0" prefHeight="36.0" prefWidth="95.0" text="Inches">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Button layoutX="10.0" layoutY="324.0" mnemonicParsing="false" onAction="#calculate" text="Calculate your daily calories" />
+                              <Button layoutX="282.0" layoutY="324.0" mnemonicParsing="false" onAction="#ourproduct" text="Get our products calorie rate" />
+                              <Label alignment="TOP_LEFT" layoutX="14.0" layoutY="387.0" prefHeight="23.0" prefWidth="158.0" text="To maintain your current ">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="TOP_LEFT" layoutX="39.0" layoutY="406.0" prefHeight="23.0" prefWidth="132.0" text="wieght you will need">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Separator layoutX="182.0" layoutY="369.0" orientation="VERTICAL" prefHeight="79.0" prefWidth="6.0" />
+                              <TextField fx:id="txcalorie" layoutX="204.0" layoutY="394.0" prefWidth="100.0" />
+                           </children></Pane>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Booking">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="tb1" layoutX="27.0" layoutY="121.0" mnemonicParsing="false" onAction="#tb1btn" prefHeight="71.0" prefWidth="88.0" />
+                        <Button fx:id="tb2" layoutX="140.0" layoutY="121.0" mnemonicParsing="false" onAction="#tb2btn" prefHeight="71.0" prefWidth="88.0" />
+                        <Button fx:id="tb8" layoutX="355.0" layoutY="281.0" mnemonicParsing="false" onAction="#tb8btn" prefHeight="71.0" prefWidth="88.0" />
+                        <Button fx:id="tb7" layoutX="249.0" layoutY="281.0" mnemonicParsing="false" onAction="#tb7btn" prefHeight="71.0" prefWidth="88.0" />
+                        <Button fx:id="tb4" layoutX="354.0" layoutY="121.0" mnemonicParsing="false" onAction="#tb4btn" prefHeight="71.0" prefWidth="88.0" />
+                        <Button fx:id="tb3" layoutX="249.0" layoutY="121.0" mnemonicParsing="false" onAction="#tb3btn" prefHeight="71.0" prefWidth="88.0" />
+                        <Button fx:id="tb6" layoutX="138.0" layoutY="281.0" mnemonicParsing="false" onAction="#tb6btn" prefHeight="71.0" prefWidth="88.0" />
+                        <Button fx:id="tb5" layoutX="27.0" layoutY="281.0" mnemonicParsing="false" onAction="#tb5btn" prefHeight="71.0" prefWidth="88.0" />
+                        <Label layoutX="36.0" layoutY="11.0" prefHeight="36.0" prefWidth="88.0" text="BOOKED" textFill="#ee0303">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="36.0" layoutY="57.0" prefHeight="36.0" prefWidth="107.0" text="REMAINING" textFill="#0a5b04">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txbk" alignment="CENTER" layoutX="163.0" layoutY="8.0" prefHeight="39.0" prefWidth="149.0" text="0">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="txrem" alignment="CENTER" layoutX="163.0" layoutY="55.0" prefHeight="21.0" prefWidth="149.0" text="8">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </TextField>
+                        <Label alignment="CENTER" layoutX="144.0" layoutY="208.0" prefHeight="9.0" prefWidth="75.0" text="Table 2">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="34.0" layoutY="205.0" prefHeight="9.0" prefWidth="75.0" text="Table 1">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="256.0" layoutY="207.0" prefHeight="9.0" prefWidth="75.0" text="Table 3">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="361.0" layoutY="203.0" prefHeight="9.0" prefWidth="75.0" text="Table 4">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="30.0" layoutY="374.0" prefHeight="9.0" prefWidth="75.0" text="Table 5">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="146.0" layoutY="375.0" prefHeight="9.0" prefWidth="75.0" text="Table 6">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="257.0" layoutY="376.0" prefHeight="9.0" prefWidth="75.0" text="Table 7">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="365.0" layoutY="377.0" prefHeight="9.0" prefWidth="75.0" text="Table 8">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children></AnchorPane>
+              </content>
+            </Tab>
+             <Tab text="HawkEye">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Pane layoutX="43.0" layoutY="43.0" prefHeight="450.0" prefWidth="456.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                     </children></AnchorPane>
+            </content>
+          </Tab> 
+        </tabs>
+      </TabPane>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" text="Back" />
+   </children>
+</AnchorPane>

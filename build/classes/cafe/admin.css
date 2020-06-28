@@ -1,0 +1,22 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.root{
+    -fx-background-colour: #f5deb3;
+}
+#pane1{
+    -fx-background-image:url("lg.png");
+ 
+    -fx-background-size: 100% 100%;
+}
+#adminid{
+    -fx-background-image:url("admin.jpg");
+ 
+    -fx-background-size: 100% 100%;
+}
+#clientid{
+    -fx-background-image:url("clients.png");
+ 
+    -fx-background-size: 100% 100%;
+}

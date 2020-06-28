@@ -1,0 +1,35 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.root{
+    -fx-background-colour: #f5deb3;
+}
+#pane1{
+    -fx-background-image:url("mgp.png");
+    
+ 
+    -fx-background-size: 100% 100%;
+}
+ .text-field{
+    -fx-background-color:#fffacd;
+    -fx-border-color:black;
+    -fx-border-radius: 5px;
+}
+#txpass{
+    -fx-background-color:#fffacd;
+     -fx-border-color:black;
+     -fx-border-radius:5px;
+}
+#btn1
+{
+    -fx-background-color:#fffacd;
+    -fx-border-color:black;
+    -fx-border-radius:5px;
+} 
+#btnn
+{
+    -fx-background-color:black;
+    -fx-border-color:black;
+    -fx-border-radius:5px;
+}
